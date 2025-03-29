@@ -1,0 +1,21 @@
+El sitio web debe incluir las siguientes seis secciones obligatorias:
+
+1. Inicio: Página de bienvenida con una animación de introducción en CSS3 y
+presentación del propósito del sitio.
+
+2. Mapa Interactivo:
+o Implementar un mapa utilizando SVG con al menos 5 regiones
+geográficas diferentes.
+
+o Cada región debe mostrar información específica al interactuar con ella
+(mediante :hover y/o :focus).
+o Debe incluir una leyenda explicativa.
+
+3. Test y Juegos Interactivos:
+o Diseñar al menos un juego o cuestionario interactivo.
+o Implementar un sistema de preguntas y respuestas (usando solo
+HTML/CSS).
+
+4. Contacto:
+o Formulario de contacto con campos validados.
+o Agregar información de contacto alternativa.
