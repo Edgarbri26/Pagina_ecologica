@@ -20,7 +20,17 @@ body{
     flex-direction: row;
     justify-items: center;
     justify-content: center;
+    animation: entrada 400ms  500ms  reverse ;
 }
+@keyframes entrada{
+    to{
+        top: -40px;
+        opacity: 0;
+        scale: 1.2;
+    }
+}
+
+/*las letras del nav*/
 nav ul{
     padding: 0;
     list-style: none;
@@ -47,7 +57,7 @@ nav ul .links:hover{
     0%{
         color: white;
     }
-    25%{
+    33%{
         color: rgb(0, 0, 0);
     }
     50%{
@@ -56,7 +66,7 @@ nav ul .links:hover{
 }
 
 section{
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     position: relative;
     text-align: center;
     display: flex;
@@ -78,6 +88,8 @@ section{
     right: 0;
     margin: auto;
 }
+
+/* los elementos del inicio*/
 .h1-inicio{
     color: rgb(255, 255, 255);
     backdrop-filter: blur(10px);
@@ -101,7 +113,7 @@ video{/* para ajustar lso videios al fondo */
 }
 
 
-
+/*Contacto*/
 form{
     position: absolute;
     color: burlywood;

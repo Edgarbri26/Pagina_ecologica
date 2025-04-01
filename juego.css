@@ -22,7 +22,7 @@ body{
     }
 }
 
-#volcan{
+#volcan{/*fondo*/
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -39,12 +39,12 @@ main{
     
 }
 
-.slader{
+.juego-area{
     display: flex;
     justify-content: center;
 
 }
-.slader input{
+.juego-area input{
     visibility: hidden;
     display: none;
 }
@@ -59,22 +59,20 @@ main{
 }
 
 .buttons label{
-    width: 20px;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     background-color: aliceblue;
     cursor: pointer;
     transition: 100ms ease-in-out;
     border-radius: 5px;
     opacity: .7;
+    text-align: center;
 }
-.slader input:nth-child(1):active ~ .buttons label:nth-child(1) ,/*boton up*/
-.slader input:nth-child(2):active ~ .buttons label:nth-child(2) ,/*boton up*/
-.slader input:nth-child(3):active ~ .buttons label:nth-child(3) ,/*boton up*/
-.slader input:nth-child(4):active ~ .buttons label:nth-child(4) {/*boton up*/
+.juego-area input:nth-child(1):active ~ .buttons label:nth-child(1){/*boton up*/
     opacity: 1;
 }
 
-.slader input:nth-child(1):active ~ .golem{/*mover up*/
+.juego-area input:nth-child(1):active ~ .golem{/*mover up*/
     animation-name: mover;
     animation-duration: 5s;
     animation-timing-function: linear;
